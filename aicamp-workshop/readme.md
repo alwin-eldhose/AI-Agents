@@ -9,7 +9,7 @@ This notebook explores essay generation through three distinct methods, progress
 1.  **Zero-Shot Approach with the Gemini API:**
     * A straightforward method where the Gemini API is directly prompted to generate an essay without any intermediate steps.
     * This approach highlights the basic capabilities of the model.
-      ![1-prompt-essay](path/to/1-prompt-essay.png)
+      ![1-prompt-essay](1-prompt-essay.png)
 
 
 2.  **Step-by-Step Approach with LangChain:**
