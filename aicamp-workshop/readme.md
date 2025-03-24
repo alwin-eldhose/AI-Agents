@@ -9,6 +9,7 @@ This notebook explores essay generation through three distinct methods, progress
 1.  **Zero-Shot Approach with the Gemini API:**
     * A straightforward method where the Gemini API is directly prompted to generate an essay without any intermediate steps.
     * This approach highlights the basic capabilities of the model.
+      
       ![1-prompt-essay](1-prompt-essay.png)
 
 
@@ -16,6 +17,7 @@ This notebook explores essay generation through three distinct methods, progress
     * Utilizes LangChain to structure the essay generation process into sequential steps.
     * This method introduces the concept of chaining together different language model operations.
     * Includes the use of Tavily search, via LangChain, to gather information about the "2024 T20 World Cup" to improve the quality of the essay.
+      
       ![Prompt_to_LangChain_Through_Tavily_Search](2-langchain-essay.png)
 
 
@@ -23,7 +25,8 @@ This notebook explores essay generation through three distinct methods, progress
     * Employs LangGraph to create an iterative agent that refines the essay through multiple rounds of generation and feedback.
     * Continues the use of Tavily search to refine and iterate the essay about the "2024 T20 World Cup" using an agentic approach.
     * This approach demonstrates a more sophisticated and dynamic way to leverage the Gemini API.
-    ![Prompt_to_Iterative_LangGraph_Through_Tavily_Search](2-langgraph-essay.png)
+      
+    ![Prompt_to_Iterative_LangGraph_Through_Tavily_Search](3-langgraph-essay.png)
 
 ## Features
 
